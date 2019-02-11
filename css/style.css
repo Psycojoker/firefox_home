@@ -93,3 +93,24 @@ h1 {
 .link-image.cubicweb-files {
   background-color: #555;
 }
+
+.link-image.localhost {
+  font-size: 50px;
+  background-color: #555;
+}
+
+.link-image.p8000 {
+  background-color: #666;
+}
+
+.link-image.p8080 {
+  background-color: #777;
+}
+
+.link-image.p5000 {
+  background-color: #888;
+}
+
+.link-image.p4242 {
+  background-color: #999;
+}
