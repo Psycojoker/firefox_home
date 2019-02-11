@@ -81,3 +81,15 @@ h1 {
 .link-image.cbc {
   background-color: #C63131;
 }
+
+.link-image.cubicweb {
+  background-color: #FF8800;
+}
+
+.link-image.cubicweb-tickets {
+  background-color: #E07700;
+}
+
+.link-image.cubicweb-files {
+  background-color: #555;
+}
