@@ -38,7 +38,7 @@ h1 {
   height: 130px;
   width: 130px;
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black;*/
   margin-bottom: 12px;
   border-radius: 15px;
   background-color: black;
@@ -58,4 +58,12 @@ h1 {
   padding: 5px;
   max-height: 100%;
   max-width: 100%;
+}
+
+.link-image.redbaron {
+  background-color: #C92122;
+}
+
+.link-image.rtfd {
+  background-color: #1C4E63;
 }
