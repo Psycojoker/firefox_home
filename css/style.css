@@ -67,3 +67,17 @@ h1 {
 .link-image.rtfd {
   background-color: #1C4E63;
 }
+
+.link-image.wxcafe {
+  background-color: #444B5D;
+}
+
+.link-image.mochi {
+  -webkit-text-stroke: 1px #999;
+  background-color: #FDE4ED;
+  font-weight: bold;
+}
+
+.link-image.cbc {
+  background-color: #C63131;
+}
