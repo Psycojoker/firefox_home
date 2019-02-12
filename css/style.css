@@ -90,6 +90,10 @@ h1 {
   background-color: #E07700;
 }
 
+.link-image.cubicweb-ml {
+  background-color: #99CCFF;
+}
+
 .link-image.cubicweb-files {
   background-color: #555;
 }
