@@ -86,6 +86,10 @@ h1 {
   background-color: #FF8800;
 }
 
+.link-image.cubicweb-changelog {
+  background-color: #FF6600;
+}
+
 .link-image.cubicweb-tickets {
   background-color: #E07700;
 }
