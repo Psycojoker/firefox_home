@@ -44,6 +44,20 @@ h1 {
   background-color: black;
 }
 
+form#url_form {
+  margin: auto;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+
+form#url_form input {
+  width: 70%;
+  border-radius: 7px;
+  height: 35px;
+  padding: 10px;
+}
+
 .link-image {
   display: flex;
   align-items: center;

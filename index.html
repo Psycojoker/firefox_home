@@ -7,6 +7,13 @@
 <body>
     <h1>Home</h1>
 
+    <div id="url_form_div">
+        <form id="url_form" method="get" onsubmit="openUrl()">
+            <input id="url" type="text" placeholder="https://..." autofocus>
+        </form>
+    </div>
+
+
     <h2>YunoHost</h2>
     <div class="links-group">
         <div class="line">
@@ -221,5 +228,12 @@
         </div>
     </div>
 
+    <script>
+        document.getElementById("url_form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            var url = document.getElementById("url").value;
+            window.location.replace(url);
+        });
+    </script>
 </body>
 </html>
