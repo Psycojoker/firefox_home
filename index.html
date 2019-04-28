@@ -231,8 +231,16 @@
     <script>
         document.getElementById("url_form").addEventListener("submit", function(event) {
             event.preventDefault();
+
             var url = document.getElementById("url").value;
-            window.location.replace(url);
+
+            if (url.startsWith("http://") || url.startsWith("https://")) {
+                window.location.replace(url);
+            } else if (url.split(" ")[0].search(/\w\.\w/) != -1) { // like qsd.com
+                window.location.replace("https://" + url);
+            } else { // fallback to search
+                window.location.replace("https://www.google.com/search?client=firefox-b-d&q=" + encodeURIComponent(url));
+            }
         });
     </script>
 </body>
